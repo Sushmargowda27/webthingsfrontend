@@ -1,0 +1,664 @@
+<html>
+	<head>
+	<title> &#x1F30E; WebThings </title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	</head>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+	<style>
+	body
+	{
+	 	margin:0%;
+	 	padding:0%;
+	 	background-image:url(/home/daikoku/Desktop/images/hero_image.png);
+	 	background-repeat:no-repeat;
+    		background-size: 100% auto;
+	}
+	.body
+	{
+		position:relative;
+		margin-top:25%;
+	}
+	.body p
+	{
+		color:black;
+	}
+	.header
+	{
+		max-width:100%;
+		height:auto;
+		background-color:#4a4a4a;
+		display:flex;
+		align-items:center;
+		justify-content:flex-start;
+	}
+	.navbar 
+	{
+		
+		list-style:none;
+		padding:2%;
+		margin-left:57%;
+	}
+	.navbar a:hover
+	{
+		color:white;
+	}
+	.navbar a 
+	{
+		text-decoration:none;
+		color:#76827dd6;
+		display:inline-block;
+	}
+	.header img
+	{
+		margin-left:20%;
+		
+	}
+	.innerbody
+	{
+		position:absolute;
+		margin: -19% 39%;
+	}
+	
+	
+	.gateframe 
+	{
+ 		display: grid;
+ 	        grid-template-columns: 50% 50%;
+ 	        position:relative;
+  		grid-gap: 0%;
+	}
+	
+	.gateway 
+	{
+		margin-top:-18.1%;
+  		max-width:100%;
+  		height:auto;
+  		float:right;
+  		background-color: white;
+  		position:relative;
+	}
+	
+	.framework 
+	{
+		margin-top:-18.2%;
+  		max-width:100%;
+  		height:auto;
+  		float:left;
+  		background-color: grey;
+  		position:relative;
+	}
+	
+	.gateway span
+	{
+		margin:10% 40%;
+	}
+	.framework span
+	{
+		margin:10% 40%;
+	}
+	
+	.gateway img
+	{
+		max-width:64%;
+	 	height:auto;
+	 	margin:7% 17%;
+	}
+	.framework img
+	{
+		width:50%;
+	 	height:auto;
+	 	margin:9% 29%;
+	}
+	
+	.gateway p
+	{
+		position:absolute;
+	 	margin:-5% 6%;
+	 	color:black;
+	}
+	.framework p
+	{
+		position:absolute;
+		margin:-6% 6%;
+	 	color:white;
+	}
+	.gateway button
+	{
+		
+	 	margin-left:41%;
+	 	margin-top:-1%;
+	}
+	 .framework button
+	{
+		margin-left:49%;
+		margin-top:-2%;
+	} 
+	
+	
+	.contr
+	{
+		clear:both;
+		max-width:100%;
+		height:60%;
+		background-color:#5d9bc7;
+		margin-top:-0.2%;
+		
+		color:white;
+		text-align:center;
+	}	
+	.contr h2
+	{
+		margin:0;
+		padding:10px;
+		font-size:24px;
+	}
+	.keepintouch
+	{
+		
+		max-height:88%;
+		width:100%;
+		background-color:#827f7f5e;
+		margin-top:0%;
+		position:absolute;
+	}
+	.footer
+	{
+		max-height:100%;
+		width:100%;
+		background-color:#4a4a4a;
+		margin-top:18.2%;
+		position:absolute;
+	}
+	.contribute img
+	{
+		width: 192px;
+		margin: 10px;
+	}
+	.contribute
+	{
+		width:960px;
+		margin:0 auto;
+	}
+	.contribute .build
+	{
+		width:300px;
+		float:left;
+		margin:10px;
+  	}
+  	.contr button
+  	{
+  		clear:both;
+  		margin:0% 10%;
+  	}
+  	
+	.keepintouch
+	{
+		text-align:center;
+	}
+	.keepintouch form input
+	{
+		padding: 10px;
+  		border: 1px solid #ccc;
+  		border-radius: 10px;
+	}
+	.keepintouch a
+	{
+		text-decoration:underline;
+		color:grey;
+		font-size:100%;
+	}
+	button
+	{
+		display:inline-block;
+		background-color:#b6d806;
+		text-align:center;
+		color:black;
+		border-radius:12%;
+		border:none;
+		font-size:110%;
+		padding:1%;
+	}
+	
+	.footer
+	{
+		text-align:center;
+	}
+	.footer .privacy a
+	{
+		text-decoration:none;
+		color:white;
+		justify-content:space-evenly;
+		font-size:100%;
+	}
+	.footer img
+	{
+		margin-top:2%;
+	}
+	.footer div i
+	{
+		font-size:260%;
+		margin:1%;
+	}
+	
+	/* .footer div p 
+	{
+		font-size:6px;
+	}
+	*/
+	.footer p
+	{
+		font-size:80%;
+		color:#b9a8a8;
+	}
+	.footer p a
+	{
+		text-decoration:underline;
+		color:#b9a8a8;
+	}
+	</style>
+	<body>
+	<section class="header">
+		<a href=""><img src="/home/daikoku/Desktop/images/webthings_wordmark-light.svg"/></a>
+		<div class="navbar">
+		<li>
+			<a href="./About.html"><ul>About</ul></a> 
+			<a href="./gateway.html"><ul>Gateway</ul></a>
+			<a href="./framework.html"><ul>Framework</ul></a>
+			<a href="./docs.html"><ul>Docs</ul></a>
+			<a href="https://discourse.mozilla.org/c/iot/252"><ul>Forums</ul></a>
+		</li>
+		</div>
+	</section>
+	<div class="body">
+		<div class="innerbody">
+			<img src="/home/daikoku/Desktop/images/webthings_wordmark-dark.svg"/>
+			<p> An open platform for monitoring and controlling <br/> devices over the web </p>
+			<button onclick="window.location.href = './About.html'">Learn More</button>
+		</div>
+	</div>
+	<section class="gateframe">
+	
+		<section class="gateway">
+			<span>
+			<strong>WebThings</strong> Gateway
+			</span>
+			<br/>
+			<img src="/home/daikoku/Desktop/images/floorplan_screenshot.png"/ alt="floorplan">
+			<br/>
+			<p>
+			A software distribution for smart home gateways focused on privacy, security and interoperability</p>
+			<br/>
+			<button>Learn More</button>
+		</section>
+		<section class="framework">
+			<span>
+			<strong>WebThings</strong> Framework
+			</span>
+			<br/>
+			<img src="/home/daikoku/Desktop/images/things.svg" alt="things"/>
+			<br/>
+			<p>
+			A collection of re-usable software components to help developers build their own web things
+			</p>
+			<br/>
+			<button>Learn More</button>
+		</section>
+	
+		
+	</section>
+	
+	
+	<section class="contr">
+	<h2> Contribute </h2>
+	<div class="contribute">
+		<section class="build"> 
+		<h3> Build a Web Thing </h3>
+		<img src="/home/daikoku/Desktop/images/light_bulb.png"/>
+		<p>Build your own IoT device which uses the Web Thing API</p>
+		</section>
+		<section class="build"> 
+		<h3> Create a Addon </h3>
+		<img src="/home/daikoku/Desktop/images/create.png"/>
+		<p>Create an add-on to bridge an existing IoT device to the web</p>
+		</section>
+		<section class="build"> 
+		<h3> Hack on WebThings </h3>
+		<img src="/home/daikoku/Desktop/images/hack.png"/>
+		<p>Help us develop our Web of Things implementation</p>
+	        </section>
+	</div>
+	<a href="https://webthings.io/docs/"> <button>Get Involved</button> </a>
+	</section>
+	
+	
+	<section class="keepintouch">
+		<h1> Keep in Touch </h1>
+		<h6> Subscribe to our newsletter </h6>
+	<form>
+		<input type="text" placeholder="FirstName"><br/>
+		<input type="text" placeholder="LastName"><br/>
+		<input type="text" placeholder="Email Address"><br/>
+		<br/>
+		<button>Subscribe</button>
+	</form>
+	<a href="https://webthings.io/privacy/"> Privacy Policy </a>
+	</section>
+	
+	
+	<section class="footer">
+	<section class="newfooter">
+	<img src="/home/daikoku/Desktop/images/webthings_wordmark-light.svg"/>
+	<br/>
+	<div class="privacy">
+	<a href="https://webthings.io/privacy/"> <span> Privacy |</span></a>
+	<a href="https://webthings.io/legal/"> <span> Legal |</span></a>
+	<a href="mailto:team@webthings.io"><span> Contact</span></a>
+	<div class="icons">
+	<a href="https://twitter.com/WebThingsIO"><i class="fa-brands fa-twitter"></i></a>
+	<a href="https://github.com/WebThingsIO"><i class="fa-brands fa-github"></i></a>
+	</div>
+
+	</div>
+	<p>
+	WebThings is sponsored by 
+	<a href="https://krellian.com/"> Krellian Ltd.</a> 
+	and is no longer affiliated with the 
+	<a href="https://www.mozilla.org/en-US/firefox/">Mozilla Corporation.</a> <br> WebThings is a <a href="https://webthings.io/legal/trademark/">trademark  </a>of Krellian Ltd.</p>
+	</section>
+	</section>
+	</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--   <html>  
+ <head>  
+   <style>  
+   body
+   {
+    margin:0px;
+    padding:0px;
+    background-image: url(/home/daikoku/Desktop/images/hero_image.png);
+    background-repeat:no-repeat;
+    background-size: cover;
+   }
+   .header h1
+   {  
+    margin-top:-2px;
+    color:white;  
+    background-color:#4a4a4a;  
+    padding:5px; 
+    text-align:center;
+    height:85px; 
+    width:100%; 
+   }  
+   .header h1 img
+   {
+    height: 40px;
+    margin: 55px 0;
+    float:left;
+   }
+   p
+   {  
+    color:blue;  
+   }  
+   .gateway
+   {
+     height:200px;
+     width:50%;
+     background-color:white;
+     float:left;
+     box-sizing:border-box;
+     height:200px;
+     text-align:center;
+   }
+   .framework
+   {
+     height:200px;
+     width:50%;
+     background-color:#4a4a4a;
+     float:right;
+     box-sizing:border-box;
+     height:200px;
+     color:white;
+     text-align:center;
+   }
+   .gatewayframework
+   {
+     margin-top:333px;
+   }
+   
+   </style>  
+ </head>  
+ <body>  
+ <section class="header">
+ <h1>  <a href="/"> <img src="https://webthings.io/images/webthings_wordmark-light.svg"/> </a> </h1>
+  </section>
+ <section class="gatewayframework">
+ <div class="gateway">
+ <strong> Webthings </strong> Gateway 
+ 
+ </div>
+ <div class="framework">
+ <strong> Webthings </strong> Framework
+ </div>
+ </section>
+ </body>  
+</html>  
+-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--<html>
+<head>
+<style>
+#div1 img{
+width: 300px;
+height: 300px;
+}
+#example{ 
+  width: 400px;
+  height: 400px;
+  background-repeat: no-repeat;
+  background-image: url(/home/daikoku/Desktop/images/hero_image.png), url(/home/daikoku/Desktop/images/webthings_wordmark-light.svg);
+  background-blend-mode: multiply;
+  
+}
+</style>
+</head>
+<body>
+<center>
+<div id = "div1">
+<h2> Original Images </h2>
+<img src = "/home/daikoku/Desktop/images/hero_image.png">
+<img src = "/home/daikoku/Desktop/images/webthings_wordmark-light.svg">
+</div>
+<h2> background-blend-mode: multiply; </h2>
+<div id="example"></div>
+</center>
+</body>
+</html>-->
+
+<!-- <html>
+<style>
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border: 1px dotted black;
+}
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 150%;
+    left: 50%;
+    margin-left: -60px;
+}
+.tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: black transparent transparent transparent;
+}
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+</style>
+<body style="text-align:center;">
+<h2>Bottom Arrow Example</h2>
+<p>Move your mouse cursor over the below heading</p>
+<div class="tooltip"><strong>Welcom to JavaTpoint</strong>
+<span class="tooltiptext">A solution of all technology</span>
+</div>
+</body>
+</html>-->
+
+
+
+
+<!--new Map<number, string>();
+map.set(1,'s');
+map.set(2,'u');
+map.set(3,'s');
+map.set(4,'h');
+map.set(5,'m');
+map.set(6,'a');
+
+console.log(map);
+console.log(map.get(4));
+console.log(map.has(9));
+console.log(map.delete(4));
+console.log(map.size);
+map.clear();
+console.log(map);
+
+console.log("...............")
+let myset=new Set<any>();
+myset.add(2);
+myset.add("gfhbg");
+myset.add(true);
+myset.add(null);
+myset.add(2);
+myset.add(null);
+
+console.log(myset);
+console.log(myset.has(2));
+console.log(myset.size);
+myset.clear();
+console.log(myset.delete);
+console.log(myset)-->

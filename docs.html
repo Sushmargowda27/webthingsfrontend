@@ -1,0 +1,289 @@
+<html>
+<head>
+<title> docs page</title>
+</head>
+<style>
+body
+{
+	margin:0;
+	padding:0;
+}
+.header
+{
+	max-width:100%;
+	height:auto;
+	background: linear-gradient(to top, #373737, #212121);
+	text-align:center;
+}
+.github
+{
+	width:10%;
+	height:6%;
+	background:url(https://webthings.io/docs/assets/images/blacktocat.png) #0090ff no-repeat 95% 15%;
+	margin-left:60%;
+}
+.github a
+{
+	text-decoration:none;
+	color:white;
+	margin-top:10px;
+}
+.projectname h1
+{
+	font-size:35px;
+	color:white;
+}
+.projectdescription h2
+{
+	font-size:16px;
+	margin-top:-10px;
+	color:white;
+}
+.body
+{
+	padding-left:30%;
+	padding-right:30%;
+}
+.platform h3
+{
+	font-size:150%;
+	margin-left:2%;
+}
+.body a
+{
+	text-decoration:none;
+	color:#0F79D0;
+}
+.body a:hover
+{
+	text-decoration:underline;
+}
+.footer
+{
+	max-width:100%;
+	height:auto;
+	background: linear-gradient(to top, #373737, #212121);
+	
+	
+}
+
+.docupubl
+{
+	padding-left:30%;
+	padding-right:30%;
+	padding:1%;
+	margin-left:30%;
+}
+.footer a
+{
+	color:white;
+}
+.footer
+{
+	color:white;
+	font-size:90%;
+}
+</style>
+<body>
+<section class="doc">
+	<section class="header">
+		<div class="github">
+			<a href="https://github.com/WebThingsIO/docs"><span> View on Github </span> <i class="fa fa-github" aria-hidden="true"></i></a>
+		</div>
+		<div class="projectname">
+			<h1> WebThings Documentation </h1>
+		</div>
+		<div class="projectdescription">
+			<h2> A guide to using and developing for the WebThings IoT Platform </h2>
+			<br/>
+			<br/>
+		</div>
+	</section>
+	<section class="body">
+		<section class="desc">
+			<div class="platform">
+			<h3> WebThings </h3>
+			</div>
+			<div class="platform_description">
+			<p> <a href="file:///home/daikoku/Desktop/webthings/new.html"> WebThings </a> is an open platform for monitoring and controlling devices over the web.</p>
+			<p>It is an open source implementation of emerging <a href="https://www.w3.org/WoT/">Web of Things </a>standards at the W3C.</p>
+			</div>
+		</section>
+	
+		<section class="userguide">
+			<div class="name">
+			<h4> User Guide </h4>
+			<h3> WebThings Gateway </h3>
+			</div>
+			<div class="description">
+				<p> <a href="file:///home/daikoku/Desktop/webthings/gateway.html">WebThings Gateway </a>is a software distribution for smart home gateways which allows users to 				directly monitor and control their smart home over the web, without a middleman.</p>
+			</div>
+			<div class="list">
+				<ul>
+					<li> <a href="">Getting Started Guide - Raspberry Pi </a> </li>
+					<li> <a href="">Getting Started Guide - Docker </a> </li>
+					<li> <a href="">User Guide </a> </li>
+					<li> <a href=""> Supported Hardware </a> </li>
+				</ul>
+			</div>
+			<div class="tips">
+			<h3>Tips</h3>
+			<div class="list1">
+				<ul>
+					<li> <a href="https://github.com/WebThingsIO/wiki/wiki/Pairing-SmartThings-sensors"> Pairing SmartThings sensors </a> </li>
+					<li> <a href="https://github.com/WebThingsIO/wiki/wiki/Arlec-Smart-Plug"> Configuring the Arlec Smart Plug </a> </li>
+					<li> <a href="https://github.com/WebThingsIO/wiki/wiki/HOWTO%3A-Factory-reset-a-Cree-Connected-bulb"> Factory reset a Cree Connected bulb </a> </li>
+					<li> <a href="https://github.com/WebThingsIO/wiki/wiki/HOWTO%3A-Factory-reset-a-Hue-bulb"> Factory reset a Hue bulb </a> </li>
+					<li> <a href="https://github.com/WebThingsIO/wiki/wiki/HOWTO%3A-Factory-reset-a-Hue-Wireless-Dimmer"> Factory reset a Hue Wireless Dimmer </a> </li>
+					<li> <a href="https://github.com/WebThingsIO/wiki/wiki/HOWTO%3A-Factory-reset-an-IKEA-bulb"> Factory reset an IKEA bulb </a> </li>
+				</ul>
+			</div>
+			</div>
+		</section>
+		<section class="developerguide">
+			<div class="devename">
+				<h4> Developer Guide </h4>
+				<h3> Web Thing API </h3>
+			</div>
+			<div class="devedescription">
+				<p> The Web Thing API is the REST & WebSockets API used by the WebThings IoT platform for monitoring and controlling devices over the web. Parts of the Web Thing API specification are currently being standardised via the W3C. </p>
+			</div>
+			<div class="devlist1">
+				<ul>
+					<li><a href="https://github.com/WebThingsIO/api/blob/gh-pages/README.md"> Introduction to the Web Thing API </a></li>
+					<li><a href="https://webthings.io/api/"> Web Thing API specification</a></li>
+					<ul>
+						<li><a href="https://github.com/WebThingsIO/curl-examples/blob/master/README.md"> Examples using curl </a></li>
+						<li><a href="https://github.com/webthingsio/wiki/wiki/Mozilla-W3C-Differences"> Differences with W3C specification </a></li>
+					</ul>
+					<li><a href="https://webthings.io/schemas/"> WoT Capability Schemas </a></li>
+				</ul>
+			</div>
+			<h3> WebThings Gateway </h3>
+			<div class="devdescription1">
+				<p> WebThings Gateway is an open source implementation of a Web of Things gateway which bridges a range of different IoT protocols to the Web Thing API and provides a web interface for users to monitor and control devices. </p>
+			</div>
+			
+			<div class="devlist2">
+				<ul>
+					<li> <a href="https://github.com/WebThingsIO/wiki/wiki/Gateway-Architecture"> Gateway Architecture</a></li>
+					<li> <a href="https://github.com/WebThingsIO/gateway#readme"> Build Instructions </a></li>
+					<li> <a href="https://github.com/WebThingsIO/wiki/wiki/Fluent%3A-Making-a-new-translation"> Creating a new Translation</a></li>
+					<li> <a href="https://github.com/WebThingsIO/wiki/wiki/Testing-prerelease-OTA-updates">Testing prerelease OTA update </a></li>
+					<li> <a href="https://github.com/WebThingsIO/wiki/wiki/How-To-Release-a-Gateway-OTA-Update"> Release a Gateway OTA Update</a></li>
+				</ul>
+			</div>
+			<h3> Addons </h3>
+			<div class="addons">
+				<ul>
+					<li><a href="https://github.com/WebThingsIO/addon-list/blob/master/guidelines.md">Introduction to Add-ons</a></li>
+					<li><a href="https://github.com/WebThingsIO/wiki/wiki/HOWTO%3A-Create-an-add-on">Creating an Add-on</a></li>
+					<li><a href="https://github.com/WebThingsIO/wiki/wiki/Add-on-Configuration">Configuring an Add-on</a></li>
+					<li><a href="https://github.com/WebThingsIO/addon-list#readme">Publishing an Add-on</a></li>
+					<li>Examples:</li>
+					<ul>
+						<li><a href="https://github.com/WebThingsIO/example-adapter">Adapter Add-on</a></li>
+						<li><a href="https://github.com/WebThingsIO/example-notifier">Notifier Add-on</a></li>
+						<li><a href="https://github.com/WebThingsIO/example-extension">Extension Add-on</a></li>
+					</ul>
+					<br/>
+					<li> Add-on APIs  </li>	
+					<ul>
+						<li> <a href="https://github.com/WebThingsIO/gateway-addon-node"> Node.js Add-on API </a> </li>
+						<li> <a href="https://github.com/WebThingsIO/gateway-addon-python"> Python Add-on API </a> </li>
+					</ul>
+					<li> <a href="https://github.com/WebThingsIO/wiki/wiki/Adapter-IPC"> Adapter Inter-process communication </a> </li>
+					<li> <a href="https://github.com/WebThingsIO/wiki/wiki/Using-the-debug-controller"> Debug Controller </a> </li>
+				</ul>
+			</div>
+			<h3> WebThings Framework </h3>
+			<div class="fradescription">
+				<p> <a href="file:///home/daikoku/Desktop/webthings/framework.html"> 
+					WebThings Framework </a>is a collection of re-usable software components
+ 					to help developers build their own web things which directly expose the Web Thing API. </p>
+			</div>
+			<h3> WebThings Libraries </h3>
+			<div class="framelist">
+				<ul> 
+					<li> <a href="https://github.com/WebThingsIO/webthing-node">Node.js</a></li>
+					<li> <a href="https://github.com/WebThingsIO/webthing-python"> Python </a></li>
+					<li> <a href="https://github.com/WebThingsIO/webthing-java"> Java </a></li>
+					<li> <a href="https://github.com/WebThingsIO/webthing-rust"> Rust </a></li>
+					<li> <a href="https://github.com/WebThingsIO/webthing-arduino"> Arduino </a></li>
+					<li> <a href="https://github.com/WebThingsIO/webthing-upy"> MicroPython </a></li>
+				</ul>
+			</div>
+			<h3> Third Party Libraries </h3>
+			<div class="thpalist">
+				<ul>
+					<li> <a href="https://github.com/Moddable-OpenSource/moddable/blob/public/documentation/network/webthings.md">Moddable</a></li>
+					<li> <a href="https://developer.atmosphereiot.com/documents/guides/gettingstartedwebthings.html">Atmosphere IoT</a></li>
+					<li> <a href="https://github.com/rzr/webthing-iotjs">IoT.js </a>by rzr</li>
+					<li> <a href="https://github.com/lillo42/webthing-csharp">C# </a>by lillo42</li>
+					<li> <a href="https://github.com/rzr/webthing-go">Go </a>by rzr</li>
+					<li> <a href="https://github.com/dravenk/webthing-go">Go </a>by dravenk</li>
+					<li> <a href="https://github.com/akshayvernekar/esp-webthing">ESP-IDF </a>by akshayvernekar</li>
+					<li> <a href="https://github.com/maliknaik16/webthing-php">PHP </a>by maliknaik16</li>
+					<li> <a href="https://github.com/hidaris/thingtalk">Python </a>by hidaris</li>
+				</ul>
+			</div>
+			<h3> WebThings Cloud </h3>
+			<div class="coluddescrption">
+				<p>WebThings Cloud is a collection of cloud services for remotely managing web things over the internet. WebThings Cloud includes a remote access service which can 			create an end-to-end encrypted tunnel between a WoT gateway (or device) and a WoT client so that it can be securely accessed over the internet.</p>
+			</div>
+			<div class="coludlist">
+			<ul>
+				<li><a href="https://github.com/WebThingsIO/registration_server/blob/master/doc/flow.md"> How Remote Access Works </a></li>
+				<li><a href="https://github.com/WebThingsIO/registration_server/blob/master/doc/api.md"> Registration Server API </a></li>
+			</ul>
+			</div>
+			<h3> Tips </h3>
+			<div class="tipslist">
+				<ul>
+					<li><a href="https://github.com/WebThingsIO/wiki/wiki/Glossary-of-Terms">Glossary of Terms</a></li>
+					<li><a href="https://github.com/WebThingsIO/wiki/wiki/Installing-Node.js">Installing Node.js</a></li>
+					<li><a href="https://github.com/WebThingsIO/wiki/wiki/Logging-into-the-Raspberry-Pi">Accessing the command line on the Raspberry Pi</a></li>
+					<li><a href="https://github.com/webthingsio/wiki/wiki/Configuring-GPIO-for-use-with-the-gpio-adapter">Configuring GPIO on the Raspberry Pi</a></li>
+					<li><a href="https://github.com/WebThingsIO/wiki/wiki/Running-OAuth-Locally">Running OAuth locally</a></li>
+					<li><a href="https://github.com/WebThingsIO/wiki/wiki/Command-Line-Tool">Command line tool for exploring new Zigbee and Z-Wave devices</a></li>
+					<li><a href="https://github.com/WebThingsIO/wiki/wiki/Installing-OpenZWave">Installing OpenZWave</a></li>
+					<li><a href="https://github.com/WebThingsIO/wiki/wiki/Node-for-OpenZWave">Node for OpenZWave</a></li>
+					<li><a href="https://github.com/WebThingsIO/wiki/wiki/Debugging-OpenZWave">Debugging Z-Wave</a></li>
+					<li><a href="https://github.com/WebThingsIO/wiki/wiki/Debugging-Zigbee">Debugging Zigbee</a></li>
+					<li><a href="https://github.com/WebThingsIO/wiki/wiki/Recording-Frames-sent-by-XCTU-(Zigbee)">Recording Zigbee frames sent by XCTU</a></li>
+					<li><a href="https://github.com/WebThingsIO/wiki/wiki/Zigbee-Attributes">Zigbee attributes</a></li>
+					<li><a href="https://github.com/WebThingsIO/wiki/wiki/PyCharm-Setup">Setup of eslint in PyCharm</a></li>
+					<li><a href="https://github.com/WebThingsIO/wiki/wiki/Loop-mounting-a-Raspberry-Pi-image-file-under-Linux">Loop mounting a Raspberry Pi image file under Linux
+					</a></li>
+				</ul>
+			</div>
+			<div class="external">
+			<h3> External Resources </h3>
+				<div class="externallist">
+				<ul>
+					<li><a href="https://hacks.mozilla.org/category/web-of-things/">Mozilla Hacks Blog - Web of Things </a>- Original Mozilla WebThings blog</li>
+					<li><a href="https://www.twobraids.com/search/label/programming">TwoBraids Blog </a>- Blog posts about WebThings</li>
+				
+				</ul>
+				</div>
+			</div>
+		</section>
+	</section>
+	<section class="footer">
+		<div class="docupubl">
+		<div class="documentation">
+		<p> WebThings Documentation maintained by<a href="https://github.com/WebThingsIO"> WebThingsIO </a></p>
+		</div>
+		<div class="publish">
+		<p> Published with <a href="https://pages.github.com/"> GitHub Pages </a> </p>
+		</div>
+		
+		</div>
+	
+	</section>
+</section>
+
+
+
+</body>
+</html>

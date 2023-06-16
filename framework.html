@@ -1,0 +1,584 @@
+<html>
+<head>
+<title> Framework </title>
+</head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+<style>
+body
+{
+	margin:0;
+	padding:0;
+}
+
+#header
+{
+	width:100%;
+	height:auto;
+	background-color:#4a4a4a;
+	display:flex;
+}
+
+#header img
+{
+	margin:20% 20%;
+}
+#navbar 
+{
+	margin:1.6% 55%;
+}
+#navbar ul
+{
+	list-style:none;
+	display:flex;
+}
+
+
+
+#navbar a
+{
+	text-decoration:none;
+	color:#ccc;
+	margin-left:10%;
+}
+.body
+{
+	width:100%;
+	height:auto;
+	background-color:#5d9bc7;
+	
+}
+
+#frameworklogo
+{
+	display:flex;
+	align-items:center;
+	justify-content:center;
+}
+#things
+{
+	margin-top:5%;
+	display:flex;
+	align-items:center;
+	justify-content:center;
+}
+#frameworklogo img
+{
+	margin-top:4%;
+}
+#things img
+{
+	margin-bottom:6%;
+}
+.ownthings
+{
+	max-width:100%;
+	height:auto;
+	background-color:white;
+}
+.ownthings
+{
+	padding-left:30%;
+	padding-right:30%;
+}
+.heading_desc h1,p
+{
+	text-align:center;
+}
+	
+.installation h1
+{
+	float:left;
+}
+.installation_tabs ul
+{
+	list-style:none;
+	display:flex;
+}
+.example_tabs ul
+{
+	list-style:none;
+	display:flex;
+}
+.installation_tabs li 
+{	
+	margin-top:0%;
+	margin-left:-6%;
+	padding-right:10%;
+}
+.example_tabs li
+{
+	margin-top:0%;
+	margin-left:-6%;
+	padding-right:10%;
+}
+
+.installation_tabs a
+{
+	text-decoration:none;
+	color:black;
+}
+
+.example_tabs a
+{
+	text-decoration:none;
+	color:black;
+}
+.pre
+{
+	background-color:grey;
+	padding:10px 20px;
+}
+.code
+{
+	background-color:black;
+	padding:1%;
+	margin:2% 2%;
+	overflow:auto;
+}
+.precode
+{
+	color:white;
+}
+.precode span
+{
+	color:orange;
+}
+.precode span1
+{
+	color:lightgrey;
+}
+.precode span2
+{
+	color:#76cece;
+}
+.precode span3
+{
+	color:#6eac6e;
+}
+.precode span4
+{
+	color:#c480c4;
+}
+.precode span5
+{
+	color:#d5d532;
+}
+.example_code
+{
+	margin-left:5%;
+}
+
+.learnmore
+{
+	padding-left:30%;
+	padding-right:30%;
+}
+.button button
+{
+	
+	border:none;
+	background-color:#b6d806;	
+	max-width:25%;
+	height:auto;
+	font-size:130%;
+	text-align:center;
+	margin-top:5%;
+	margin-left:40%;
+	padding:10px 20px;
+	border-radius:5%;
+}
+.button button:hover
+{
+	background-color:#abbf42;
+}
+.webthings_library
+{
+	padding-left:30%;
+	padding-right:30%;
+	margin-top:3%;
+}
+.heading
+{
+	text-align:center;
+}
+.webthing_lang a
+{
+	text-decoration:none;
+	color:black;
+}
+.webthing_lang 
+{
+	display: flex;
+  justify-content: space-between;
+}
+.webthing_lang span
+{
+	margin-left:25%;
+}
+
+.thirdparty_library 
+{
+	padding-left:30%;
+	padding-right:30%;
+	margin-top:3%;	
+}
+.thirdparty_library span
+{
+	font-size:90%;
+	text-align:center;
+}
+.tp_heading 
+{
+	text-align:center;
+}
+.thirdparty_lang a
+{
+	text-decoration:none;
+	color:black;
+}
+
+.thirdparty_lang .first_row
+{
+	display:flex;
+	justify-content:space-between;
+}
+.thirdparty_lang .second_row
+{
+	display:flex;
+	justify-content:space-between;
+}
+
+.first_row img
+{
+	max-width:90%;
+	height:50%;
+}
+.second_row img
+{
+	max-width:90%;
+	height:50%;
+}
+.atomsphere img
+{
+	margin-left:-35%;
+}
+.atomsphere span
+{
+	margin-left:-36%;
+}
+.footer
+{
+	max-width:100%;
+	height:auto;
+	background-color:#4a4a4a;
+	text-align:center;
+}
+.footer_image img
+{
+	margin-top:1%;
+}
+.privacy_links
+{
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	margin-top:1%;
+}
+.privacy_links span2
+{
+	color:#ccc;
+}
+.privacy_links a
+{
+	text-decoration:none;
+	color:#ccc;
+}
+.logo 
+{
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	margin-top:1%;
+}
+.logo a
+{
+	text-decoration:none;
+	color:white;
+	display:inline-block;
+	width:80px;
+	font-size:300%;
+}
+
+.footer_content
+{
+	display:flex;
+	align-items:center;
+	justify-content:center;
+}
+.footer_content a
+{
+	color:#ccc;
+}
+.footer_content p
+{
+	color:#ccc;
+	font-size:11px;
+}
+</style>
+<body>
+
+<section class="framework">
+<section class="header">
+	<div id="header">
+		<div id="image">
+			<a href="./new.html"> <img src="/home/daikoku/Desktop/images/webthings_wordmark-light.svg"/></a>
+		</div>
+		<div id="navbar">
+			<ul>
+				<a href="./About.html"><li> About </li></a>
+				<a href="./gateway.html"><li> Gateway </li></a>
+				<a href="./framework.html"><li> Framework </li></a>
+				<a href="./docs.html"><li> Docs </li></a>
+				<a href="https://discourse.mozilla.org/c/iot/252"><li> Forum </li></a>
+			</ul>
+		</div>
+	</div>
+</section>
+<section class="body">
+	<div id="body">
+		<div id="frameworklogo">
+			<img src="/home/daikoku/Desktop/images/webthings_framework_wordmark.svg"/>
+		</div>
+		<div id="things">
+			<img src="/home/daikoku/Desktop/images/things-horizontal.svg"/>
+		</div>
+	
+	</div>
+</section>
+<section class="ownthings">
+	<div class="heading_desc">
+ 		<div class="heading">
+ 			<h1>Build Your Own Web Things</h1>
+ 		</div>
+ 		<div class="description">
+ 			<p>The WebThings Framework is a collection of re-usable software components to help you build your own web things, which directly expose the Web Thing API. This means they can 					be discovered by a Web of Things gateway or client, which can then automatically detect the device's capabilities and monitor and control it over the web.</p>
+ 		</div>
+ 	</div>
+ 	<div class="installation">
+ 		<h2> Installation </h2>
+ 		<div class="installation_tabs">
+ 			<ul> 
+ 				<li><a href=" ">Node.js</a></li>
+ 				<li><a href=" ">Python</a></li>
+ 				<li><a href=" ">Java</a></li>
+ 				<li><a href=" ">Rust</a></li>
+ 				<li><a href=" ">Arduino</a></li>
+ 			</ul>
+ 		</div>
+ 		<div class="pre">
+ 			<div class="code">
+ 				<div class="precode">
+ 					$
+ 					<span> npm </span>
+ 					<span> install </span>
+ 					webthing
+ 				</div>
+ 			</div>
+ 		</div>
+ 	<div class="example">
+ 		<h2> Example </h2>
+ 		<div class="example_tabs">
+ 			<ul>
+ 				<li><a href="">Node.js</a></li>
+ 				<li><a href="">Python</a></li>
+ 				<li><a href="">Java</a></li>
+ 				<li><a href="">Rust</a></li>
+ 				<li><a href="">Arduino</a></li>
+ 			<ul>	
+ 		</div>
+ 		<div class="pre">
+ 			<div class="code">
+ 				<div class="precode">
+ 					<span4> const </span4> { <br/>
+ 					<div class="example_code">
+ 						<span1> Action, </span1><br/>
+ 						<span1> Event, </span1><br/>
+ 						<span1> Property, </span1><br/>
+ 						<span1> SingleThing, </span1><br/>
+ 						<span1> Thing, </span><br/>
+ 						<span1> Value,</span><br/>
+ 						<span1> WebThingServer,</span1><br/>
+ 						} <span2> = </span2> <span> require </span>  (<span3> 'webthing' </span3> );  <br/>
+ 						<span4> const </span4> <span1> uuidv4 </span1> <span2> = </span2> <span> require </span> <span2> ( </span2> <span3> 'uuid/v4' </span3> <span2> ); <span2>
+ 						<br/>
+ 						<br/>
+ 						
+ 						
+ 						
+ 						<span4> class </span4> <span5> OverheatedEvent </span5> <span4> extends </span4> <span> Event </span> { <br/>
+ 						<span> constructor </span> <span1> (thing, data) { </span1> <br/>
+ 						<span4> super </span4> <span1> (thing, </span1> <span3> 'overheated' </span3> <span1> , data); </span1> <br/>
+ 						<span1>}</span1> <br/>
+ 						<span1> } </span1> <br/>
+ 						<br/>
+ 						
+ 						
+ 						
+ 						<span4> class </span4> <span5> FadeAction </span5> <span4> extends </span4> <span> Action </span> { <br/>
+ 						<span> constructor </span> <span1> (thing, input) { </span1> <br/>
+ 						<span4> super </span4> <span1> (</span1> <span> uuidv4 </span><span1> (),thing,</span1><span3> 'fade' </span3> <span1>, input); </span1> <br/>
+ 						<span1> } </span1>
+ 						<br/>
+ 						<br/>
+ 						<span>  performAction </span> <span1>() {</span1><br/>
+ 						<span4> return new </span4> <span5> Promise </span5> <span1>((resolve) </span1> <span2> => </span2> <span1>{</span1>
+ 					</div>
+ 				</div>
+ 			</div>
+ 		</div>
+ 	</div>
+ 	</div>
+</section>
+<section class="learnmore">
+	<div class="button">
+		<a href="https://webthings.io/docs/"><button> Learn More </button></a>
+	</div>
+</section>
+
+<section class="webthings_library">
+	<div class="library_heading">
+		<div class="heading">
+			<h1> WebThings Libraries <h1>
+		</div>
+		
+		<div class="webthing_lang">
+			<div class="nodejs">
+				<a href=" "> <img src="/home/daikoku/Desktop/images/webthings_icon-round.svg"/> <br/><span> Node.js </span>  </a> 
+			</div>
+			<div class="python">
+				<a href=" "> <img src="/home/daikoku/Desktop/images/webthings_icon-round.svg"/> <br/> <span> Python</span>  </a>
+			</div>
+			<div class="java">
+				<a href=" "> <img src="/home/daikoku/Desktop/images/webthings_icon-round.svg"/><br/> <span> Java </span> </a>
+			</div>
+			<div class="rust">
+				<a href=" "> <img src="/home/daikoku/Desktop/images/webthings_icon-round.svg"/> <br/> <span> Rust </span>  </a>
+			</div>
+			<div class="arduino">
+				<a href=" "> <img src="/home/daikoku/Desktop/images/webthings_icon-round.svg"/><br/> <span> Arduino </span>  </a>
+			</div>
+			<div class="micropython">
+				<a href=" "> <img src="/home/daikoku/Desktop/images/webthings_icon-round.svg"/> <br/>MicroPython  </a>
+			</div>
+		</div>
+	<div>
+</section>
+
+<section class="thirdparty_library">
+	<div class="tplibrary_heading">
+		<div class="tp_heading">
+			<h1> Third Party Libraries </h1>
+		</div>
+		
+		<div class="thirdparty_lang">
+			<div class="first_row">
+				<div class="moddable">
+					<a href=" "> <img src="/home/daikoku/Desktop/images/moddable.jpg"/> <br/> <span> Moddable  </span> </a>
+				</div>
+				<div class="atomsphere">
+					<a href=" "> <img src="/home/daikoku/Desktop/images/atmosphere_iot.svg"/> <br/> <span> Atmosphere <br/> IoT </span> </a>
+				</div>
+				<div class="rzr">
+					<a href=" "> <img src="/home/daikoku/Desktop/images/github.png"/> <br/> <span> IoT.js <br/> by rzr </span> </a>
+				</div>
+				<div class="lillo42">
+					<a href=" "> <img src="/home/daikoku/Desktop/images/github.png"/> <br/> <span> C# <br/> by lillo42  </span> </a>
+				</div>
+				<div class="gorzr">
+					<a href=" "> <img src="/home/daikoku/Desktop/images/github.png"/> <br/> <span> Go  <br/> by rzr </span> </a>
+				</div>
+			</div>
+			
+			<div class="second_row">
+				<div class="dravenk">
+					<a href=" "> <img src="/home/daikoku/Desktop/images/github.png"/> <br/> <span>Go <br/> by dravenk </span> </a>
+				</div>
+				<div class="akshay">
+					<a href=" "> <img src="/home/daikoku/Desktop/images/github.png"/> <br/> <span> ESP-IDF <br/> by akshayvernekar </span> </a>
+				</div>
+				<div class="esp">
+					<a href=" "> <img src="/home/daikoku/Desktop/images/github.png"/> <br/> <span> ESP-IDF <br/> by KrzysztofZurek1973  </span> </a>
+				</div>
+				<div class="malik">
+					<a href=" "> <img src="/home/daikoku/Desktop/images/github.png"/> <br/> <span> PHP <br/> by maliknaik16 </span> </a>
+				</div>
+				<div class="hidaris">
+					<a href=" "> <img src="/home/daikoku/Desktop/images/github.png"/> <br/> <span> Python <br/> by hidaris </span> </a>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<section class="footer">
+	<div class="footer_end">
+		<div class="footer_image">
+			<a href="./new.html"> <img src="/home/daikoku/Desktop/images/webthings_wordmark-light.svg"/></a>
+		</div>
+		<div class="privacy_links">
+			<div class="privacy">
+			<a href="https://webthings.io/privacy/"> Privacy </a> <span2> | </span2>
+			</div>
+			<div class="legal">
+			<a href="https://webthings.io/legal/"> Legal </a> <span2> | </span2>
+			</div>
+			<div class="contact">
+			<a href="mailto:team@webthings.io">Contact </a>
+			</div>
+		</div>
+		<div class="logo">
+			<div class="twitter">
+				<a href="https://twitter.com/WebThingsIO"> <i class="fa-brands fa-square-twitter"></i> </a>
+			</div>
+			<div class="github">
+				<a href="https://github.com/WebThingsIO"> <i class="fa-brands fa-github"></i> </a>
+			</div>
+		</div>
+		<div class="footer_content">
+			<p>WebThings is sponsored by <a href="https://krellian.com/"> Krellian Ltd.</a> and is no longer affiliated with the <a href="https://www.mozilla.org/en-US/firefox/">Mozilla Corporation</a>.<br/>
+				"WebThings" is a <a href="https://webthings.io/legal/trademark/"> trademark </a> of Krellian Ltd. </p>
+		
+		</div>
+	</div>
+</section>
+</section>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
